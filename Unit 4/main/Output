@@ -1,0 +1,7 @@
+--- Inserting Skewed Sequence (30, 20, 10, 40) ---
+
+--- Full Operational Node Balance Verification ---
+Node: 10 | Height: 1 | Balance Factor: 0 -> [BALANCED]
+Node: 20 | Height: 2 | Balance Factor: 1 -> [BALANCED]
+Node: 40 | Height: 1 | Balance Factor: 0 -> [BALANCED]
+Node: 30 | Height: 3 | Balance Factor: 2 -> [CRITICAL WARNING: UNBALANCED NODE]
