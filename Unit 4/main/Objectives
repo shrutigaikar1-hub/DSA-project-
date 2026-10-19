@@ -1,0 +1,6 @@
+To implement a Binary Search Tree.
+- To insert nodes into the BST.
+- To calculate the height of each node.
+- To calculate the balance factor of each node.
+- To identify balanced and unbalanced nodes.
+- To verify the structural balance of the tree.
