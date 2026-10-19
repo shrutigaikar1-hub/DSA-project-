@@ -1,0 +1,2 @@
+Problem Statement
+Design and implement a console-based playlist system in C++ using singly linked list, circular linked list, and doubly linked list. Each song represents a node in the list. The system should support insertion of songs, deletion of songs, searching for a specific song by name, displaying the complete playlist, and finding the middle-position song using all three types of linked lists.
