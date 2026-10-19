@@ -1,0 +1,21 @@
+Start the program.
+
+Create three linked lists: singly, circular, and doubly linked lists.
+
+Display a menu of operations.
+
+Accept the user's choice.
+
+Insert a song into the selected linked list.
+
+Delete a song by its name from the selected linked list.
+
+Search for a song by its name.
+
+Display all songs in the selected playlist.
+
+Find the middle-position song:
+
+Singly linked list: Traverse the list using slow and fast pointers.
+
+Circular linked list: Traverse the circular list until the middle position is reached.
