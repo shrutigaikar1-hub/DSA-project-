@@ -1,0 +1,4 @@
+• To maintain structural integrity checks across an AVL tree during dynamic updates.
+• To output data diagnostics using clean, mobile-compatible tabular formatting.
+• To implement dynamic tracking that updates balances after both element insertion and deletion.
+• To highlight structural exceptions when a node violates the strict balance factor boundaries.
