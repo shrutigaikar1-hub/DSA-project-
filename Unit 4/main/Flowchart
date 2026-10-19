@@ -1,0 +1,42 @@
+   [ START ]
+       │
+       ▼
+ ┌───────────┐
+ │ Initialize│
+ │ root=NULL │
+ └───────────┘
+       │
+       ▼
+ ┌───────────┐
+ │Insert Node│
+ │ Sequences │
+ └───────────┘
+       │
+       ▼
+ ┌───────────┐
+ │ Calculate │
+ │ Heights & │
+ │ BF Values │
+ └───────────┘
+       │
+       ▼
+=======================
+[ BALANCE COMPLIANCE ]
+=======================
+       │
+       ▼
+ Is Balance Factor (BF)
+ Between -1 and 1?
+       ├──► YES ──► Node is Balanced ──────────┐
+       └──► NO  ──► Print: "UNBALANCED NODE" ──┤
+       │                                       │
+       ▼                                       ▼
+  [ Display Node Data, Height, and BF Metrics ]
+       │
+       ▼
+ Are All Nodes Audited?
+       ├──► NO  ──► Continue Traversal ──► [Loop]
+       └──► YES ──► [ Finish Execution ]
+       │
+       ▼
+    [ STOP ]
