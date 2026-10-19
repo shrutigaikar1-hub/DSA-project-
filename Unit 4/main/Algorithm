@@ -1,0 +1,15 @@
+• Step 1: Start the program.
+• Step 2: Declare a structure Node containing an integer data field, pointers to left and right subnodes, and an integer height tracker.
+• Step 3: Implement getHeight(Node* n) to safely return 0 if empty (NULL), otherwise its current integer height value.
+• Step 4: Implement getBalanceFactor(Node* n) to measure:
+\(\text{Balance\ Factor}=\text{getHeight}(n\rightarrow \text{left})-\text{getHeight}(n\rightarrow \text{right})\)
+• Step 5: Create an insertion function insertNode(Node* node, int data) to construct an unbalanced tree sequence (to deliberately demonstrate check compliance thresholds).
+• Step 6: Update ancestor tracking heights recursively using:
+\(\text{Height}=1+\max (\text{getHeight}(node\rightarrow \text{left}),\text{getHeight}(node\rightarrow \text{right}))\)
+• Step 7: Design a diagnostic traversal function checkTreeBalance(Node* root):
+	• Traverse every node in Post-Order style.
+	• Print each node's height and balance factor.
+	• Evaluate the balance factor. If the value is greater than 1 or less than -1, explicitly print an alert: "UNBALANCED NODE IDENTIFIED!"
+• Step 8: In main(), populate a series of nodes that create an imbalanced structure (e.g., sequentially skewed insert inputs).
+• Step 9: Execute checkTreeBalance(root) to review overall status.
+• Step 10: Stop the program.
