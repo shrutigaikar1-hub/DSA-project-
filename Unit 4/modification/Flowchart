@@ -1,0 +1,53 @@
+   [ START ]
+       │
+       ▼
+ ┌───────────┐
+ │ Initialize│
+ │ root=NULL │
+ └───────────┘
+       │
+       ▼
+=======================
+[   INSERTION PHASE   ]
+=======================
+       │
+       ▼
+ Perform insertNode()
+       │
+       ▼
+ Recalculate Heights
+       │
+       ▼
+ Automatically Trigger:
+ displayTable()
+       │
+       ▼
+=======================
+[   DELETION PHASE    ]
+=======================
+       │
+       ▼
+ Perform deleteNode()
+       │
+       ▼
+ Recalculate Heights
+       │
+       ▼
+ Automatically Trigger:
+ displayTable()
+       │
+       ▼
+=======================
+[ TABULAR AUDIT ENGINE]
+=======================
+       │
+       ▼
+ Read Node BF Value
+       │
+       ▼
+ Is BF outside [-1, +1]?
+       ├──► YES ──► Print Row with: [HIGHLIGHTED / CRITICAL]
+       └──► NO  ──► Print Row with: [BALANCED]
+       │
+       ▼
+    [ STOP ]
