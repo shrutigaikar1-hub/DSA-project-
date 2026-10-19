@@ -1,0 +1,8 @@
+• Step 1: Start the program.
+• Step 2: Define Node containing integer data, pointers to left and right children, and an integer height.
+• Step 3: Implement helper functions getHeight(Node* n) and getBalanceFactor(Node* n).
+• Step 4: Implement a tabular reporting function displayTable(Node* root) that prints the table header and traverses the tree to fill rows with: Node Value, Height, Balance Factor, and Status (marked as CRITICAL UNBALANCED if out of bounds).
+• Step 5: Create an insertion function insertNode(Node* node, int data) that adds a node, updates ancestral heights, and automatically triggers the tabular balance check.
+• Step 6: Create a deletion function deleteNode(Node* root, int key) to locate and remove a node, handle child restructuring, recalculate node heights, and instantly trigger the tabular balance check.
+• Step 7: In main(), initialize an empty tree, perform sequential insertions, and then execute a node deletion to demonstrate real-time monitoring.
+• Step 8: Stop the program.
