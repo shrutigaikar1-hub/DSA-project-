@@ -1,0 +1,2 @@
+
+This assignment successfully implements a Binary Search Tree and evaluates the structural balance of its nodes. The program calculates the height and balance factor of each node and identifies unbalanced nodes. In the given test case, Node 30 has a balance factor of 2 and is therefore identified as an unbalanced node. This demonstrates that the program can successfully detect structural imbalance in a Binary Search Tree.
