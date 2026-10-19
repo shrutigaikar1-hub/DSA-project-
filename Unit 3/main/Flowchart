@@ -1,0 +1,39 @@
+[ START ]
+           │
+           ▼
+  ┌─────────────────────────────────┐
+  │  Initialize head = NULL         │
+  └─────────────────────────────────┘
+           │
+           ▼
+┌─────────────────────────────────────┐
+│  Display Playlist Menu Options:     │
+│  1. Insert  2. Delete  3. Search    │
+│  4. Display  5. Exit                │
+└─────────────────────────────────────┘
+           │
+           ▼
+  ┌─────────────────────────────────┐
+  │     Input user choice           │
+  └─────────────────────────────────┘
+           │
+           ▼
+     Check Choice?
+           │
+           ├─► [Choice == 1] ──► Input Song Name ──► Create Node ──► Insert at Head ──► [ Loop Back ]
+           │
+           ├─► [Choice == 2] ──► Is head == NULL? 
+           │                       ├──► Yes ──► Display "Playlist is empty" ───────► [ Loop Back ]
+           │                       └──► No  ──► Delete Node from Head ─────────────► [ Loop Back ]
+           │
+           ├─► [Choice == 3] ──► Input Target Song ──► Traverse and Compare
+           │                       ├──► Found ────► Display "Song found" ──────────► [ Loop Back ]
+           │                       └──► Not Found ──► Display "Song not found" ─────► [ Loop Back ]
+           │
+           ├─► [Choice == 4] ──► Is head == NULL?
+           │                       ├──► Yes ──► Display "Playlist is empty" ───────► [ Loop Back ]
+           │                       └──► No  ──► Traverse & Print all Songs ────────► [ Loop Back ]
+           │
+           ├─► [Choice == 5] ──► Display "Exiting..." ──► [ STOP ]
+           │
+           └─► [Invalid Choice] ──► Display "Invalid Choice" ──────────────────────► [ Loop Back ]
