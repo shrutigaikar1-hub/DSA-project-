@@ -1,0 +1,1 @@
+To implement a Binary Search Tree (BST) and analyze its structural balance by calculating the height and balance factor of each node. The program identifies unbalanced nodes and provides diagnostic information about the tree structure.
