@@ -1,0 +1,12 @@
+Start with all railway stations as separate sets.
+Store all railway links with their construction costs.
+Sort all edges in ascending order of cost.
+Select the edge with the smallest cost.
+Check whether adding the edge creates a cycle.
+If it does not create a cycle, add it to the MST.
+If it creates a cycle, reject it.
+Continue until the MST contains V − 1 edges, where V is the number of stations.
+Display the selected links.
+Display the rejected cycle-forming links.
+Display the total construction cost.
+A Disjoint Set Union (DSU) / Union-Find data structure is used to detect cycles efficiently.
