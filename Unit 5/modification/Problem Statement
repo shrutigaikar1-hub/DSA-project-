@@ -1,0 +1,4 @@
+Modify the Kruskal’s algorithm program for a railway network to:
+Update the weight/cost of an existing railway link and apply Kruskal’s algorithm again.
+Display every selected edge along with its weight and running total cost.
+Detect whether the graph is disconnected and report whether a Minimum Spanning Tree (MST) can be formed.
