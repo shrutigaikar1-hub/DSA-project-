@@ -1,0 +1,5 @@
+To represent a railway network using a weighted graph.
+To apply Kruskal’s algorithm for finding the Minimum Spanning Tree.
+To select railway links with minimum total construction cost.
+To identify and display links rejected because they form cycles.
+To calculate the total minimum construction cost.
