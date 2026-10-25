@@ -1,0 +1,2 @@
+Thus, the C++ program successfully represents railway stations as vertices and proposed railway tracks as weighted edges. Kruskal’s algorithm selects the minimum-cost links while avoiding cycles and produces a Minimum Spanning Tree.
+For the sample input, the minimum construction cost is 55, and the selected railway links connect all five stations with minimum total cost.
