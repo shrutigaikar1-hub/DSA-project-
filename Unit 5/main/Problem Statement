@@ -1,0 +1,5 @@
+Develop a C++ program to represent railway stations as vertices and proposed railway track links as weighted edges. Each edge represents a possible railway link between two stations, and its weight represents the construction cost.
+Apply Kruskal’s algorithm to construct a Minimum Spanning Tree (MST). The program should display:
+Selected railway links
+Rejected cycle-forming links
+Total construction cost
