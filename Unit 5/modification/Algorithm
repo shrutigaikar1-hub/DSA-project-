@@ -1,0 +1,24 @@
+Step 1: Input Graph
+ Read the number of vertices V.
+ Read the number of edges E.
+ Enter the source, destination and weight of every edge.
+Step 2: Update Edge Weight
+ Enter the source and destination of the edge whose weight has to be updated.
+ Enter the new weight.
+ Search for the corresponding edge and update its weight.
+Step 3: Apply Kruskal’s Algorithm
+ Sort all edges in ascending order of weight.
+ Initialize every vertex as a separate set.
+ Select the smallest remaining edge.
+ Check whether adding the edge creates a cycle.
+ If it does not create a cycle:
+ Add the edge to the MST.
+ Add its weight to the total cost.
+ Display the selected edge and running total.
+ If it creates a cycle, reject the edge.
+ Continue until V - 1 edges are selected or all edges are processed.
+Step 4: Check Connectivity
+ If the number of selected edges is V - 1, the MST is successfully formed.
+ Otherwise, the graph is disconnected and an MST cannot be formed.
+ Display the result and total cost.
+ Stop.
