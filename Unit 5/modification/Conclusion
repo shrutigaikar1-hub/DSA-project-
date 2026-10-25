@@ -1,0 +1,1 @@
+Thus, the modified C++ program successfully updates an edge weight and reapplies Kruskal’s algorithm. It displays every selected railway link along with its weight and running total cost. It also checks the number of selected edges to determine whether the graph is connected and whether a Minimum Spanning Tree can be formed.
